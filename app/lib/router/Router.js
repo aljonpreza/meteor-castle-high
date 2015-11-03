@@ -22,6 +22,10 @@ Router.route('/add', {
   name: 'AddStuff'
 });
 
+Router.route('/studentsparents', {
+  name: 'StudentsParents'
+});
+
 
 Router.route('/stuff/:_id', {
   name: 'EditStuff',
